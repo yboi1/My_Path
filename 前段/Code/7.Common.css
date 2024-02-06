@@ -1,0 +1,17 @@
+p {
+
+    /* 字体类型： 大小， 字体， 样式， 粗细程度 */
+    font-size : 22px;
+    font-family : "宋体";
+    font-style : intalic;
+    font-weight : bold;
+
+    /* 段落属性 对齐格式， 修饰， 行间距， 字符间距*/
+    text-align : left   center  justify;
+    text-decoration : overline  underline   line-through; 
+    line-height : 4px;  
+    letter-spacing : 4px;
+
+    /* 列表属性  ·, 空心圆, 实心方块， 数字*/
+    list-style-type : disc circle square decimal;
+}

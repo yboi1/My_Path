@@ -1,0 +1,23 @@
+/* 所有的p标签 */
+p{
+    color:green;
+}
+/* ID选择器 */
+#name{
+    color: red;
+}
+
+/* 类选择器 */
+.Myclass{
+    color:aqua;
+}
+
+/* 指定元素 */
+a[herf] {
+    color:red;
+}
+
+/* 派生选择器 p标签 下的 a标签*/
+p a{
+    color:black;
+}

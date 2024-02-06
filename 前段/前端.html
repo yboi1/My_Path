@@ -1,0 +1,430 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>前端</title>
+</head>
+<body><h1 id='前端'>前端</h1>
+<h1 id='html-1'>HTML</h1>
+<h1 id='第一章'>第一章</h1>
+<h2 id='11'>1.1</h2>
+<p>重点知识点</p>
+<p>前端是指：直接与用户接触的页面，比如布局、特效、交互</p>
+<p>后端是指：程序、数据库和服务器层面的东西</p>
+<p>&nbsp;</p>
+<p>前段开发的工作主要是 把UI的设计图按照W3C标准做成HTML页面，用CSS进行布局， 并且用javascript脚本语言实现页面上的前段交互。</p>
+<p>&nbsp;</p>
+<p>浏览器：谷歌Google，火狐Firefox，Internet Explorer	主流的浏览器主要是由内核所分</p>
+<p>&nbsp;</p>
+<p>URL	协议//用户名:密码@子域名.域名.顶级域名:端口号/目录/文件名.文件后缀?<strong>参数=值#标志</strong></p>
+<blockquote><p>问号之后为参数	一般常见的域名都通过映射，映射为简单的网址供人们访问 </p>
+</blockquote>
+<p>&nbsp;</p>
+<p>网页的标准通过三部分来描述：结构、表现、行为	分别对应：<code>Html	Css  JavaScript</code></p>
+<p>&nbsp;</p>
+<h2 id='12'>1.2</h2>
+<p>HTML	超文本标签语言</p>
+<p>css	层叠样式表</p>
+<p>js	运行在浏览器上的解释型语言	（脚本语言）</p>
+<p>&nbsp;</p>
+<h1 id='第二章'>第二章</h1>
+<h3 id='21'>2.1	</h3>
+<p><strong>文档结构</strong></p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>&nbsp;</p>
+<p>头部和主题两大部分</p>
+<p>头部描述了文档的各种属性和信息包括标题</p>
+<p>主体包括：文本、段落、列表、表格、绘制的图像、嵌入的对象</p>
+<p>&nbsp;</p>
+<p><strong>块级元素和行内元素	h4/h5	</strong>					<strong>需要查询</strong></p>
+<p>&nbsp;</p>
+<p><strong><code>&lt;title&gt;</code>的作用：</strong></p>
+<p>	1、在浏览器的标题栏中显示标题</p>
+<p>	2、标题可以用作默认快捷方式或收藏夹的名称</p>
+<p>	3、标题可以作为搜索引擎结果中的页面标题</p>
+<p>应用时注意：</p>
+<ul>
+<li>一个网页只能有一个标题</li>
+<li>标题的名字不能超过64个字符数</li>
+<li>标题标记对之间不允许有其它标签的存在</li>
+
+</ul>
+<p>&nbsp;</p>
+<h3 id='22\t文本格式化标签'>2.2	文本格式化标签</h3>
+<ul>
+<li><p>换行标签<code>&lt;hr&gt;</code>		非成对标签（单标签）</p>
+</li>
+<li><p>水平线标签<code>&lt;br&gt;</code></p>
+</li>
+<li><p>字形标签</p>
+<pre><code>&lt;h4&gt;下面是文字修饰符&lt;/h4&gt;
+    &lt;p&gt;
+        &lt;b&gt;加粗&lt;/b&gt;
+        &lt;small&gt;小号字&lt;/small&gt;
+        &lt;string&gt;加重语气&lt;/string&gt;
+        &lt;i&gt;&amp;nbsp; 加斜&lt;/i&gt;
+        &lt;sub&gt;下标字&lt;/sub&gt;
+        &lt;sup&gt;上标字&lt;/sup&gt;
+        &lt;ins&gt;插入字&lt;/ins&gt;
+        &lt;del&gt;删除字&lt;/del&gt;
+        &lt;mark&gt;记号文本&lt;/mark&gt;
+        &lt;strong&gt;斜体加T体标签&lt;strong&gt;
+    &lt;/p&gt;
+</code></pre>
+<p>&nbsp;</p>
+<p><strong>不是语义标签</strong></p>
+<ul>
+<li><p><code>&lt;div&gt;</code>标签	块标签，	独占一行</p>
+</li>
+<li><p><code>&lt;span&gt;</code>   行内标签，不会换行</p>
+<p>区别：div标签可以包含span标签和p标签</p>
+<p>	而span标签不可以包含div标签和p标签</p>
+</li>
+
+</ul>
+</li>
+
+</ul>
+<p>&nbsp;</p>
+<h3 id='23-图片'>2.3 图片</h3>
+<p>	<code>&lt;img 属性=&quot;属性值&quot;&gt;</code></p>
+<blockquote><p>alt：	规定图片的替换文本		当图片没有被加载时显示的文字</p>
+<p>src：	规定显示图片的URL		源文件的路径</p>
+</blockquote>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 id='24-超链接标签'>2.4 超链接标签</h3>
+<p>&nbsp;</p>
+<p><strong>分类：</strong></p>
+<ul>
+<li>	根据链接路径：	内部链接、锚点链接、外部链接</li>
+<li>     根据使用对象不同：   文本超链接、图片超链接、E-mail超链接、锚点超链接、多媒体文件超链接、空连接</li>
+
+</ul>
+<p>&nbsp;</p>
+<p>链接有两个部分：目标和标签</p>
+<blockquote><p>href	规定指向的页面URL</p>
+<p>target	_blank	新页面打开</p>
+<p>			_parent	在父框架集中打开</p>
+<p>			self		 当前页面打开</p>
+<p>			top		 在整个窗口中打开被链接文档</p>
+</blockquote>
+<p>&nbsp;</p>
+<h3 id='25-表格'>2.5 表格</h3>
+<p>&nbsp;</p>
+<pre><code>&lt;caption&gt;课程表&lt;/caption&gt;
+    &lt;tr align=&quot;center&quot;&gt;
+        &lt;th&gt;星期一&lt;/th&gt;
+        &lt;th&gt;星期二&lt;/th&gt;
+        &lt;th&gt;星期三&lt;/th&gt;
+        &lt;th&gt;星期四&lt;/th&gt;
+        &lt;th&gt;星期五&lt;/th&gt;
+    &lt;/tr&gt;
+
+    &lt;tr align=&quot;center&quot;&gt;
+        &lt;td&gt;语文&lt;/td&gt;
+        &lt;td&gt;语文&lt;/td&gt;
+        &lt;td&gt;语文&lt;/td&gt;
+        &lt;td&gt;语文&lt;/td&gt;
+        &lt;td&gt;语文&lt;/td&gt;
+    &lt;/tr&gt;
+
+</code></pre>
+<p>&nbsp;</p>
+<blockquote><p>caption	标题	</p>
+<p>tr	每行		th	标题单元格	td	数据单元格</p>
+</blockquote>
+<p>&nbsp;</p>
+<p><code>&lt;table frame=&quot;&quot; rules=&quot;&quot;&gt;&lt;/table&gt;</code></p>
+<p><strong>表格标签：</strong>		<strong>重点</strong></p>
+<figure><table>
+<thead>
+<tr><th>frame属性值</th><th>说明</th><th>rules属性值</th><th>说明</th></tr></thead>
+<tbody><tr><td>above</td><td>显示上边框</td><td>all</td><td>显示所有内外边框</td></tr><tr><td>below</td><td>显示下边框</td><td>none</td><td>不显示内部边框</td></tr><tr><td>hsides</td><td>显示上下边框</td><td>rows</td><td>仅显示行边框</td></tr><tr><td>vsides</td><td>显示左右边框</td><td>cols</td><td>仅显示列边框</td></tr><tr><td>lhs</td><td>显示左边框</td><td>groups</td><td>显示介于行列间边框</td></tr><tr><td>rhs</td><td>显示右边框</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>border</td><td>显示上下左右</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>void</td><td>不显示边框</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody>
+</table></figure>
+<p>&nbsp;</p>
+<p>合并单元格：	</p>
+<p>	合并的方法是在th或td标签中添加下面的属性</p>
+<p>	colspan	水平单元格合并</p>
+<p>	rowspan	垂直单元格合并</p>
+<p>&nbsp;</p>
+<h3 id='26-元标签'>2.6 元标签</h3>
+<p>提供有关页面的元信息		<strong>使用次数无限制</strong></p>
+<p>&nbsp;</p>
+<h3 id='27-标签'>2.7 标签</h3>
+<p><code>&lt;link rel=&quot;&quot;  type=&quot;&quot;  href=&quot;&quot;&gt;</code></p>
+<p>&nbsp;</p>
+<blockquote><p>rel 属性规定的是当前文档与被链接文档的关系		必须属性</p>
+<p>href	属性指定的是被链接文档的位置</p>
+</blockquote>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id='第三章'>第三章</h1>
+<p>&nbsp;</p>
+<h3 id='31-结构元素'>3.1 结构元素</h3>
+<p>具有语义化， 不具备样式</p>
+<pre><code class='language-html' lang='html'>&lt;header&gt;导航&lt;/header&gt;		块级元素
+&lt;nav&gt;菜单&lt;/nav&gt;			块级元素
+&lt;article&gt;内容&lt;/article&gt;
+&lt;aside&gt;次要内容&lt;/aside&gt;
+&lt;footer&gt;底部内容&lt;/footer&gt;	块级元素
+</code></pre>
+<p>&nbsp;</p>
+<h3 id='33'>3.3  </h3>
+<h4 id='progress'>progress</h4>
+<p>	加载进度条	行内元素</p>
+<p>&nbsp;</p>
+<h4 id='meter'>meter</h4>
+<p>		当前进度条，当前加载的进度	行内元素</p>
+<p>&nbsp;</p>
+<h3 id='34文本层次语义元素'>3.4文本层次语义元素</h3>
+<h4 id='cite'>cite	</h4>
+<p>	定义作品的标题	浏览器可以根据此标签，摘录出参考书目或作品</p>
+<p>&nbsp;</p>
+<h4 id='mark'>mark</h4>
+<p>	高亮文本中的文字，吸引注意</p>
+<p>&nbsp;</p>
+<h4 id='time'>time</h4>
+<p>	定义日期和时间</p>
+<p>&nbsp;</p>
+<h3 id='35\t分组元素'>3.5	分组元素</h3>
+<p>	<strong>blockquote</strong>	表示引自他出的大段内容	作用类似于p的扩展	(会考)</p>
+<p>&nbsp;</p>
+<h4 id='ul和ol'>UL和OL	</h4>
+<p><code>&lt;ol type=&quot;I&quot; start=&quot;2&quot; reversed=&quot;reversed&quot;&gt;</code></p>
+<blockquote><p>type	样式（当需要写时，需要注意！）</p>
+<p>strat	从第几个开始计数</p>
+<p>reversed	从后向前书	（一半的主流浏览器不支持）</p>
+</blockquote>
+<p>&nbsp;</p>
+<h4 id='contenteditable\t会考）'>contenteditable	（会考）</h4>
+<p>规定是否允许用户编辑内容	true/false（默认为true）</p>
+<p>&nbsp;</p>
+<h1 id='第四章'>第四章</h1>
+<h3 id='41\t自带校验的元素\t\t需要查询'>4.1	自带校验的元素		需要查询！！</h3>
+<p>新增控件:</p>
+<p>	email	地址输入框</p>
+<p>	URL	URL输入框</p>
+<p>&nbsp;</p>
+<h3 id='42-表单的结构'>4.2 表单的结构	</h3>
+<p>	学习会下面的代码：	自己敲一个</p>
+<pre><code class='language-html' lang='html'>&lt;form&gt;
+    学号：&lt;input type=&quot;text&quot; size=&quot;10px&quot; required=&quot;required&quot; id=&quot;1&quot;&gt;
+    姓名：&lt;input type=&quot;text&quot; size=&quot;8px&quot; required=&quot;required&quot;&gt;
+    性别：&lt;input type=&quot;radio&quot; name=&quot;gender&quot;&gt;男
+    &lt;input type=&quot;radio&quot; name=&quot;gender&quot;&gt;女
+    &lt;br&gt;
+    教学反馈意见:&lt;br&gt;
+    &lt;textarea cols=&quot;60&quot; rows=&quot;4&quot;&gt;请输入意见
+    &lt;/textarea&gt;
+    &lt;br&gt;
+    &lt;input type=&quot;submit&quot; onclick=&quot;check()&quot; value=&quot;提交&quot;&gt;
+    &lt;input type=&quot;reset&quot; value=&quot;重置&quot;&gt;
+&lt;/form&gt;
+&lt;/body&gt;
+</code></pre>
+<p>&nbsp;</p>
+<p>每个表单都以form开头和结尾	每个控件都有自己的名字，在js中用于区别</p>
+<p><strong>两个重要的属性：</strong>	</p>
+<p>	将action属性设置为访问者提交表单时服务器上对数据进行数据处理的脚本的URL</p>
+<p>	method 属性的值有两个可以进行选择，分别是get和post</p>
+<p>&nbsp;</p>
+<blockquote><p>1，action：表示当前表单中的内容提交给哪个页面进行处理</p>
+<p>2，method:表示当前表单提交的方式，常见的有get和post方式，默认是get提交</p>
+</blockquote>
+<p>&nbsp;</p>
+<p>新增的type属性</p>
+<p>Range	滑动条		Color颜色选择器</p>
+<p>Email	邮件地址输入框	url	url地址输入框</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 id='442-对表单进行验证'>4.4.2 对表单进行验证</h3>
+<h4 id='正则表达式匹配'>正则表达式匹配</h4>
+<p><a href='https://www.runoob.com/regexp/regexp-syntax.html' target='_blank' class='url'>https://www.runoob.com/regexp/regexp-syntax.html</a></p>
+<p>. 表示匹配任意一个元素	除换行符</p>
+<p>*表示匹配前面相同的大于等于零个元素</p>
+<p>+表示匹配前面相同的大于等于一个元素</p>
+<p>？表示匹配一个或零个前面的元素</p>
+<p>&nbsp;</p>
+<p><code>patten=“^[a-xA-Z0-9]{6,}$”</code>	只允许输入英文和数字，且长度至少为六位</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id='第五章'>第五章</h1>
+<h3 id='52-audio元素必考）'>5.2 audio元素（必考）</h3>
+<p><strong>眼熟即可</strong></p>
+<p>&nbsp;</p>
+<p>支持的音频格式：	Ogg Vorbis		MP3		Wav</p>
+<p>&nbsp;</p>
+<h3 id='53-video元素必考）'>5.3 video元素（必考）</h3>
+<p>支持的视频格式：	Ogg	MPEG4	WebM</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>不知道浏览器支持那种音频格式，因此需要将所有的音频格式都加入，需要什么元素</p>
+<p>	source元素：</p>
+<pre><code>&lt;body&gt;
+    &lt;audio controls=&quot;controls&quot;&gt;&lt;/audio&gt;
+    &lt;source src=&quot;Try Everything.mp3&quot;&gt;
+    &lt;source src=&quot;Try Everything.wav&quot;&gt;
+&lt;/body&gt;
+</code></pre>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id='css'><strong>Css</strong></h1>
+<h1 id='第六章'>第六章</h1>
+<p>&nbsp;</p>
+<p>	他是对web文档添加样式的简单机制</p>
+<p><strong>特性：</strong></p>
+<p>	1、将网页的内容和表现形式分离</p>
+<p>	2、通过模块化结构可以及时调整模块的内容，方便版本的发布和更新</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>CSS的内核：</p>
+<figure><table>
+<thead>
+<tr><th style='text-align:center;' >内核</th><th style='text-align:center;' >&nbsp;</th></tr></thead>
+<tbody><tr><td style='text-align:center;' >WebKit</td><td style='text-align:center;' >chrome、Safari、Edge</td></tr><tr><td style='text-align:center;' >Mozilla</td><td style='text-align:center;' >Firefox</td></tr><tr><td style='text-align:center;' >Opera</td><td style='text-align:center;' >Opera</td></tr><tr><td style='text-align:center;' >Trident</td><td style='text-align:center;' >IE</td></tr></tbody>
+</table></figure>
+<p>&nbsp;</p>
+<h1 id='第七章'>第七章</h1>
+<h2 id='71-css3的基本语法认识即可）'>7.1 CSS3的基本语法（认识即可）</h2>
+<p>1、基本语法规则</p>
+<p>	css样式由两部分组成：选择器和声明块	选择器和声明块之间用：隔开， 声明块间可以添加多个声明</p>
+<p>2、属性值的不同写法和单位</p>
+<p>	同一状态可以有多种表达形式</p>
+<p>3、属性值记得加引号</p>
+<p>4、多重声明中的分号</p>
+<p>5、多重声明中的空格和大小写</p>
+<p>注：css对大小写不敏感，但是如果和html文档一起工作的话，会变得大小写敏感</p>
+<p>&nbsp;</p>
+<h2 id='72-css3选择器'>7.2 css3选择器</h2>
+<p><strong>1、通用选择器</strong></p>
+<p><strong>2、标签选择器</strong></p>
+<p><strong>3、类选择器</strong></p>
+<p><strong>4、Id选择器</strong></p>
+<p>&nbsp;</p>
+<p>注：</p>
+<ul>
+<li>作用域大小依次减小，	权限依次增高</li>
+<li>类和ID选择器大小写敏感取决于文档类型，HTML敏感，css不敏感</li>
+
+</ul>
+<p>&nbsp;</p>
+<p><strong>5、伪类选择器：</strong>		<strong>（会考）</strong></p>
+<p>下属作用常用于超链接标签<code>&lt;a&gt;</code></p>
+<pre><code>a:link			未访问时的颜色
+a:visited		访问后的颜色
+a:hover			悬停时的颜色
+a:active		点击时的颜色
+</code></pre>
+<p>&nbsp;</p>
+<p><strong>6、群组选择器</strong></p>
+<pre><code>h1,h2,h3,h4{
+	color:green;
+}
+</code></pre>
+<p>&nbsp;</p>
+<p><strong>7、组合选择器</strong></p>
+<p>	1、后代选择器</p>
+<p>	2、子元素选择器	用&gt;相隔</p>
+<p>	3、相邻兄弟选择器	用+相隔</p>
+<p>	4、普通相邻兄弟选择器	用~相隔</p>
+<p>&nbsp;</p>
+<h2 id='73-引入css的方式'>7.3 引入css的方式</h2>
+<p><strong>1、嵌入css样式</strong>
+	只有当前文件可以使用</p>
+<p><strong>2、链入外部css样式</strong>	</p>
+<p>引入文件，当前目录下的文件都可以使用</p>
+<p><code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;./test.css&quot;&gt;</code></p>
+<p><strong>3、内联css样式</strong></p>
+<p><code>&lt;sttle&gt;</code>标签中声明</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>css样式的重要性</strong></p>
+<p>添加！important关键字，表明立马执行</p>
+<p>&nbsp;</p>
+<h2 id='75-css常用样式属性'>7.5 CSS常用样式属性</h2>
+<pre><code>p {
+
+    /* 字体类型： 大小， 字体， 样式， 粗细程度 */
+    font-size : 22px;
+    font-family : &quot;宋体&quot;;
+    font-style : intalic;
+    font-weight : bold;
+
+    /* 段落属性 对齐格式， 修饰， 行间距， 字符间距*/
+    text-align : left   center  justify;
+    text-decoration : overline  underline   line-through; 
+    line-height : 4px;  
+    letter-spacing : 4px;
+
+    /* 列表属性  ·, 空心圆, 实心方块， 数字*/
+    list-style-type : disc circle square decimal;
+}
+</code></pre>
+<pre><code>line-hight	行间距
+text-transform	文字大小写
+background-position		背景图像的起始位置
+
+边框样式：
+	solid 实线	double 双线	dotted 点状线条	dashed 虚线	wavy 波浪线
+</code></pre>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id='第八章'>第八章</h1>
+<h2 id='网页布局的类型'>网页布局的类型</h2>
+<p><strong>1、固定布局</strong></p>
+<p><strong>2、流式布局</strong></p>
+<p><strong>3、相应式布局</strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2 id='html-2'>HTML</h2>
+<h3 id='head'>Head</h3>
+<p>&nbsp;</p>
+<pre><code>&lt;head&gt;
+    &lt;meta name=&quot;author&quot; content=&quot;拯救者&quot;&gt;
+    &lt;meta name = &quot;keywords&quot; content=&quot;1&quot;&gt;
+    &lt;meta http-equiv=&quot;refresh&quot; content=&quot;3 ;URL=&quot;http://www.baidu.net&quot;&gt;
+    &lt;title&gt;你好&lt;/title&gt;
+    &lt;link rel=&quot;iron&quot; href=&quot;../&quot; type=&quot;image/x-iron&quot;&gt;
+&lt;/head&gt;
+</code></pre>
+<p><code>&lt;head&gt;</code>	是所有头部元素的容器</p>
+<p><code>&lt;link&gt;</code>  标签可以跳转超链接	rel是标题， href是图片地址	type表示类型</p>
+<p><code>&lt;meta&gt;</code> 标签表示状态	name为其关键字	content为内容名		文档的元数据</p>
+<p><code>&lt;base&gt;</code>	定义页面的所有链接的默认地址或默认目标</p>
+<p><code>&lt;style&gt;</code>	定义文档的样式信息</p>
+<p><code>&lt;script&gt;</code>	定义客户端脚本</p>
+<p>&nbsp;</p>
+<p><strong>主题标记</strong></p>
+<h3 id='body'>Body</h3>
+<pre><code>&lt;body 	topmargin=&quot;20px&quot; leftmargin=&quot;18&quot; 
+		alink=&quot;#bbded6&quot; vilnk=&quot;6b48ff&quot; bgcolor=&quot;#EFF57&quot; text=&quot;red&quot;&gt;
+    &lt;a href=&quot;http://www.baidu.com&quot;&gt;baidu &lt;/a&gt;
+    &lt;p&gt;&lt;/p&gt;
+    主题内容
+&lt;/body&gt;
+</code></pre>
+<p>topmargin 上边距 		leftmargin	左边距</p>
+<p>alink	点击链接时的颜色			vlink	点击后的颜色</p>
+<p>bgcolor	背景颜色（可以是图片）		text	文本颜色	</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>
