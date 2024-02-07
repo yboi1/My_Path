@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/boyi/Code/MyNote/Cmake/build",
+  "command": "/usr/bin/c++   -std=gnu++11 -o CMakeFiles/Tutorial.dir/tutorial.cpp.o -c /home/boyi/Code/MyNote/Cmake/tutorial.cpp",
+  "file": "/home/boyi/Code/MyNote/Cmake/tutorial.cpp",
+  "output": "CMakeFiles/Tutorial.dir/tutorial.cpp.o"
+}
+]

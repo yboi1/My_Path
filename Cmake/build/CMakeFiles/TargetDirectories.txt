@@ -1,0 +1,3 @@
+/home/boyi/Code/MyNote/Cmake/build/CMakeFiles/Tutorial.dir
+/home/boyi/Code/MyNote/Cmake/build/CMakeFiles/edit_cache.dir
+/home/boyi/Code/MyNote/Cmake/build/CMakeFiles/rebuild_cache.dir
