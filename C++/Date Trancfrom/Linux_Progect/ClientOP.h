@@ -1,0 +1,26 @@
+#pragma once
+#include<string>
+#include"Message.pb.h" 
+using namespace std;
+struct Clientinfo
+{
+	string clientId;
+	string serverId;
+	string ip;
+	unsigned short port;
+};
+class ClientOP
+{
+public:
+	ClientOP(string jsonFile);
+	~ClientOP();
+
+	//√ÿ‘ø–≠…Ã
+	bool seckeyAgree();
+	//√ÿ‘øºÏ—È
+	bool seckeyCheck();
+	//√ÿ‘ø◊¢œ˙
+	void seckeyZhuxiao();
+private:
+	Clientinfo m_info;
+};
