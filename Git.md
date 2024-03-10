@@ -14,3 +14,22 @@ git branch -M master
 git push -u origin master
 ```
 
+
+
+```
+git config --global user.name chengzhi
+git config --global user.email chengzhi@gmail.com
+```
+
+
+
+```
+ssh-keygen -t rsa -C "chengzhi@gmail.com"
+```
+
+
+
+
+
+
+
