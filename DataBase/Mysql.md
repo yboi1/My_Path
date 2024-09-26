@@ -203,3 +203,15 @@ row_nums = mysql_num_rows(res);
 col_nums = mysql_num_fields(res);
 ```
 
+
+
+
+
+> 哈喽 ~ 这位小可爱 ~ 感谢关注GeekHour ！！！
+> Redis命令大全文档、RedisInsight安装文件等资料的下载地址：
+> 百度网盘：
+> https://pan.baidu.com/s/1agxsL5CXj0Pmah4ukoeLYg?pwd=hour 提取码: hour
+>
+> GoogleDrive:
+> https://drive.google.com/drive/folders/1_F1_QWvQCdcTXYCcvCgciUYxJM48Gp8A?usp=share_link
+
