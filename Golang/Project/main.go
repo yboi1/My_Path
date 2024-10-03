@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	config.InitConfig()
-	r := router.SetUpRouter()
-	r.Run(config.AppConfig.App.Port)
+	config.InitConfig()              // 完成数据库等初始化工作
+	r := router.SetUpRouter()        // 路由接收
+	r.Run(config.AppConfig.App.Port) // 启动服务
 }

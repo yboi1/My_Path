@@ -21,6 +21,7 @@ type Config struct {
 var AppConfig *Config
 
 func InitConfig() {
+	// 读取yml文件	将文件内容读入到AppConfig中
 	viper.SetConfigName("config")
 	viper.SetConfigType("yml")
 	viper.AddConfigPath("./config")

@@ -1,6 +1,6 @@
 app:
   name: CurrencyExchangeApp
-  port: 8080
+  port: :8080
 
 database:
   DSN : root:root1234@(127.0.0.1:13306)/db1?charset=utf8mb4&parseTime=True&loc=Local
