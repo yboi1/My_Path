@@ -1,3 +1,4 @@
+// 一致性hash实现	避免因为节点的变换导致缓存雪崩
 package consistenthash
 
 import (
